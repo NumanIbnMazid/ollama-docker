@@ -1,4 +1,3 @@
-      
 #!/bin/bash
 
 # Start Ollama in the background.
