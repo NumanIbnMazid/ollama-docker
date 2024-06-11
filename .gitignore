@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+develop-eggs/
+eggs/
+sdist/
+wheels/
+
+# Django
+local_settings.py
+db.sqlite3
+*.sqlite3
+
+# Flask
+instance/
+
+# SQLAlchemy
+*.db
+*.sqlite
+
+# PyCharm
+.idea/
+*.iml
+.idea/workspace.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/misc.xml
+.idea/misc.xml
+
+# Visual Studio Code
+.vscode/
+
+# Atom
+.atom/
+
+# Sublime Text
+.sublime-project
+.sublime-workspace
+
+# Vim
+.swp
+.swo
+
+# Miscellaneous
+*.log
+*.pid
+.DS_Store
+*~
+.gitattributes
+.gitmodules
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+*.AppleDouble
+Icon\r
+
+# Pipenv
+.venv/
+Pipfile*
+.env
+*.egg-info
+
+# ollama models
+/ollama/*
