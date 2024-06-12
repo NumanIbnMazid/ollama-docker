@@ -39,9 +39,6 @@ COPY ./requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY entrypoint-ollama.sh /entrypoint-ollama.sh
-RUN chmod +x /entrypoint-ollama.sh
-
 ENV LD_LIBRARY_PATH="$MINICONDA_DIR/envs/env/lib:${LD_LIBRARY_PATH}"
 
 CMD ["/opt/miniconda/envs/env/bin/python", "main.py"]
